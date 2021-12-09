@@ -19,7 +19,7 @@ namespace Generics
             items = new T[items.Length + 1];
             for (int i = 0; i <temparray.Length ; i++)
             {
-                items[i] = temparray[i];
+                items[i] = temparray[i]; //aktardık
 
             }
             items[items.Length - 1] = item;
