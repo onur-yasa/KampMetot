@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP3
+
+namespace InterfaceAbstractDemo.Abstract
 {
-    interface IKrediBaseManager
+   public interface ICustomerCheckService
     {
-        void Hesapla(); //metot
-        void BiseyYap(); //
+        bool CheckIfRealPerson(Customer customer);
         
     }
 }

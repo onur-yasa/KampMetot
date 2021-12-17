@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP3
+namespace GameDemo.Abstract
 {
-    interface IKrediBaseManager
+   public interface IEntity
     {
-        void Hesapla(); //metot
-        void BiseyYap(); //
-        
     }
 }

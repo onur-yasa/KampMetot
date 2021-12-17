@@ -28,7 +28,8 @@ namespace OOP2
             Musteri musteri4 = new TuzelMusteri();
 
             MusteriManeger musteriManeger = new MusteriManeger();
-            musteriManeger.Ekle(musteri1); 
+            musteriManeger.Ekle(musteri1);
+            
             
         }
     }

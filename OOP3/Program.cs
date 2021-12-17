@@ -16,6 +16,9 @@ namespace OOP3
             //KonutKrediManager konutKrediManager = new KonutKrediManager();
             //konutKrediManager.Hesapla();
 
+             
+            //EKRANDA SEÇEBİLDİĞİMİZ KREDİLER//
+
             IKrediBaseManager ıhtiyacKrediManager = new IhtiyacKrediManager();
             
             IKrediBaseManager tasitKrediManager = new TasitKrediManager();   ///------>  Yazım Tekniği
@@ -26,10 +29,10 @@ namespace OOP3
             ILoggerService fileLoggerService = new FileLoggerService();
 
             BasvuruManager basvuruManager = new BasvuruManager();
-            basvuruManager.BasvuruYap(ıhtiyacKrediManager,databaseloggerService );
+           // basvuruManager.BasvuruYap(ıhtiyacKrediManager,databaseloggerService );
 
             List<IKrediBaseManager> krediler = new List<IKrediBaseManager>() {ıhtiyacKrediManager,tasitKrediManager };
-            //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+            basvuruManager.KrediOnBilgilendirmesiYap(krediler);
           
         }
     }

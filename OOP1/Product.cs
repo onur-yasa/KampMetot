@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace OOP1
 {
-    class Product
+    class Product //Entity-varlık bu tip classlarda sadece ö zellik olur.
     {
-        //snippet
+        //snippet------>prop
         public int Id { get; set; }
         public int CategoryId { get; set; }
         //ürün ismi
@@ -17,6 +17,8 @@ namespace OOP1
         public double UnitPrice { get; set; }
         //ürün stok adedi
         public int UnitsInStock { get; set; }
+
+        //CRUD  -EKLEME,OKUMAK,GÜNCELLEMEK,SİLMEK
 
     }
 }

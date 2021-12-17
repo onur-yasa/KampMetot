@@ -11,7 +11,7 @@ namespace OOP3
         //Method Injection
         public void BasvuruYap(IKrediBaseManager krediBaseManager,ILoggerService loggerService)
         {
-            
+            //Başvuran bilgilerin değerlendirme
             krediBaseManager.Hesapla();
             loggerService.Log();
         }

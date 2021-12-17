@@ -11,7 +11,8 @@ namespace OOP2
     {
         public void Ekle(Musteri musteri)
         {
-        //    if(musteri.)
+            //   if(musteri.)
+            Console.WriteLine(musteri.MusteriNo);
         }
     }
 }

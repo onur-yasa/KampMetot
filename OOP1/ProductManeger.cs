@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace OOP1
 {
-    class ProductManeger
+    class ProductManeger  //Ürün ile ilgili operasyonlar(ekleme,silme...).
     {
+        //encapsulation
         public void Add(Product product)
         {
             Console.WriteLine(product.ProductName + " Eklendi");
